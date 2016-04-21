@@ -1,8 +1,10 @@
 ---
-title: "RR Course Project 1"
+title: "Reproducible Research: Peer Assessment 1"
 author: "Edmund Tran"
 date: "April 16, 2016"
-output: html_document
+output:
+  html_document:
+    keep_md: true
 ---
 
 Here is the code to load and preprocess the data. I make a version of the data that drops all of the missing values.
